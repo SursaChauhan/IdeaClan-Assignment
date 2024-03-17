@@ -8,7 +8,7 @@ const booksResolvers =require('./graphql/Resolvers/bookResolvers.js')
 const authenticate =require('./graphql/authenticate.js')
 
 
-const PORT =  7100;
+const PORT =  7300;
 
 // Create an instance of ApolloServer
 async function startserver(){
@@ -24,7 +24,7 @@ async function startserver(){
   // Start the Apollo Server
   await apolloserver.start()
 
-apolloserver.applyMiddleware({app:app,path:"/server"});
+apolloserver.applyMiddleware({app:app,path:"/backend"});
 
 app.get('/', (req, res) => {
       res.send('Api is running...');
