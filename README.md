@@ -16,7 +16,7 @@ Install dependencies:
 
 3. Run the server 
  npm start OR npm run dev
-The GraphQL server will be running on http://localhost:7100/graphql.
+The GraphQL server will be running on http://localhost:7300/backend.
 
 ## API Documentation
 Queries
