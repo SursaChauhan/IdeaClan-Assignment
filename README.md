@@ -4,7 +4,7 @@ This project is a GraphQL-based library management system. It allows users to br
 
 Stack
 Backend: Node.js, Express.js, GraphQL, MongoDB (with Mongoose)
-Frontend: (Not specified)
+Frontend: ReactJs, Material UI(In Progress)
 ## Setup Instructions
 Clone the repository to your local machine:
 
