@@ -24,7 +24,7 @@ async function startserver(){
   // Start the Apollo Server
   await apolloserver.start()
 
-apolloserver.applyMiddleware({app:app,path:"/backend"});
+apolloserver.applyMiddleware({app:app,path:"/server"});
 
 app.get('/', (req, res) => {
       res.send('Api is running...');
