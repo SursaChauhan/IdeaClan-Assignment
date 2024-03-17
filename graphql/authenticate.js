@@ -9,7 +9,7 @@ const authenticate = async ({ req }) => {
   }
 
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, 'sursa');
     return { user: decoded }; // Attach user information to the context object
   } catch (error) {
     throw new Error('Invalid token');
