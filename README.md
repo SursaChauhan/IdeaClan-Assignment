@@ -1,11 +1,11 @@
-## IdeaClan-Assignment
-# Project Overview
+# IdeaClan-Assignment
+## Project Overview
 This project is a GraphQL-based library management system. It allows users to browse and search for books, borrow or buy books, and request to borrow books from other users. The system supports authentication with user and admin roles.
 
 Stack
 Backend: Node.js, Express.js, GraphQL, MongoDB (with Mongoose)
 Frontend: (Not specified)
-# Setup Instructions
+## Setup Instructions
 Clone the repository to your local machine:
 
 1. git clone <repository_url>
@@ -19,7 +19,7 @@ Install dependencies:
 The GraphQL server will be running on http://localhost:7100/graphql.
 
 ## API Documentation
- # Queries
+Queries
 Fetch all books
 
 1. query {
@@ -50,7 +50,7 @@ query {
   }
 }
 
-# Mutations
+##  Mutations
 1. Add a new book
 mutation {
   addBook(title: "<book_title>", author: "<book_author>", description: "<book_description>") {
@@ -105,42 +105,42 @@ mutation {
 }
 
 ## Authentication Procedures
- # User Authentication:
+ ## User Authentication:
 
 * Users can register by providing a username, email, and password.
 * Users can log in using their email and password.
 * Upon successful login, a JWT token is generated and returned, which should be included in the Authorization header for subsequent requests.
 
-# Admin Authentication:
+## Admin Authentication:
 * Admins can register by providing a name, email, and password.
 * Admins can log in using their email and password.
 * Upon successful login, a JWT token is generated and returned, which should be included in the Authorization header for subsequent requests.
-# Admin Login 
+## Admin Login 
 
 
 ## Workflow
 User Registration:
 
-# Users can register with their username, email, and password.
+## Users can register with their username, email, and password.
 User Login:
 
-# Users can log in with their registered email and password.
+## Users can log in with their registered email and password.
 Upon successful login, a JWT token is generated and returned.
 
 
-# Admins can log in with their registered email and password.
+## Admins can log in with their registered email and password.
 Upon successful login, a JWT token is generated and returned.
 
 ## Book Management:
 
-# Admins can perform CRUD operations (Create, Read, Update, Delete) on books.
-# Users can search for books by title or author.
-# Users can request to borrow books from other users.
-# User can approve or reject borrowing requests from another users.
+ Admins can perform CRUD operations (Create, Read, Update, Delete) on books.
+ Users can search for books by title or author.
+ Users can request to borrow books from other users.
+ User can approve or reject borrowing requests from another users.
 
 ## Authentication:
 
-# All requests to protected routes should include a valid JWT token in the Authorization header.
+## All requests to protected routes should include a valid JWT token in the Authorization header.
 
 * Additional Notes
 1. Authentication Middleware: Middleware is implemented to authenticate and authorize users based on their roles (user or admin) before performing CRUD operations on books.
@@ -149,5 +149,5 @@ Upon successful login, a JWT token is generated and returned.
 
 2. Error Handling: Proper error handling is implemented for various scenarios, including failed requests and unauthorized access.
 
-# Thanks For Visiting ,Follow For more such Content #
-## Surendra Singh ## 
+## Thanks For Visiting ,Follow For more such Content ##
+# Surendra Singh #
