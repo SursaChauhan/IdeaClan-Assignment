@@ -19,6 +19,13 @@ Install dependencies:
 The GraphQL server will be running on http://localhost:7300/backend.
    # Deploy Link
    https://idea-clan-assignment-theta.vercel.app/server
+   # Tech Stack
+. Node.js
+. Express.js
+. MongoDB
+. Mongoose
+. Graphql
+. Apollo Server
 ## API Documentation
 Queries
 Fetch all books
