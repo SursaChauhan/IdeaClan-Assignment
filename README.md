@@ -18,7 +18,7 @@ Install dependencies:
  npm start OR npm run dev
 The GraphQL server will be running on http://localhost:7300/backend.
    # Deploy Link
-   https://idea-clan-assignment-theta.vercel.app/
+   https://idea-clan-assignment-theta.vercel.app/server
 ## API Documentation
 Queries
 Fetch all books
